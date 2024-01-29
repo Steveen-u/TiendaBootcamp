@@ -1,7 +1,83 @@
 .firstView{
-    background-color: gray;
+    background-color: white;
     width: 100%;
-    height: 1000px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.hmeCntent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.imagehome{
+    width: 50%;
+    height: auto;
+}
+
+.images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imageText{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.imageText img{
+    width: 300px;
+    height: auto;
+}
+
+.peopleImage{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.peopleImage img{
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.grup {
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.grup img{
+    width: auto;
+    height: 400px;
+}
+
+.textCntent{
+    width: 50%;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textCntent p{
+    width: 350px;
+  font-size: 30px;
+  text-align: flex-start;
+  font-weight: bold;
+  margin: 0px;
+
 }
